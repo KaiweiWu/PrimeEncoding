@@ -1,0 +1,21 @@
+number = input()
+print("  k pfe (k)")
+i = 1
+primeCount = 0
+
+while i != number + 1:
+    floorNum = i // 2
+    startDivisor = 2
+    result = ""
+
+
+
+    
+    output = str(i) + " " + str(i)
+    numLength = len(str(i))
+    if numLength == 1:
+        output = "  " + output
+    if numLength == 2:
+        output = " " + output
+    print(output)
+    i = i + 1
